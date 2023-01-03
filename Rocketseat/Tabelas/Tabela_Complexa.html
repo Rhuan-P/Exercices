@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabela</title>
+</head>
+<body>
+
+    <table>
+        <caption style="background-color: darkgrey;"> Produtos Produzidos x Vendidos </caption>
+
+        <colgroup>
+            <col style="background-color: aqua;">
+            
+            <col span="2" style="background-color:blueviolet;">
+            <col span="2"style="background-color:cornflowerblue;">
+            
+        </colgroup>
+
+        <thead>
+            <tr style="background-color:antiquewhite;">
+                <th rowspan="3" scope="col">Loja</th>
+                <th colspan="4" scope="colgroup">produto</th>
+            </tr>
+       
+            <tr>
+                
+                <th colspan="2" scope="colgroup">consoles</th>
+                <th colspan="2" scope="colgroup">controles</th>
+            </tr>
+            <tr>
+                
+                <th scope="col">produzidos</th>
+                <th scope="col">vendidos</th>
+                <th scope="col">produzidos</th>
+                <th scope="col">vendidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Sonya</th>
+                <th>300</th>
+                <th>275</th>
+                <th>288</th>
+                <th>265</th>
+            </tr>
+
+            <tr>
+                <th scope="row">Misocroft</th>
+                <th>293</th>
+                <th>139</th>
+                <th>394</th>
+                <th>310</th>
+            </tr>
+        </tbody>
+
+
+
+
+    </table>
+    
+</body>
+</html>
