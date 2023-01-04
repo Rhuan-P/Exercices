@@ -1,10 +1,11 @@
 *{
     border: solid blue;
-   
 }
-body{
+
+html, body{
     border: none;
 }
-html{
-    border: none;
+
+table{
+    margin: auto;
 }
